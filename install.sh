@@ -7,13 +7,13 @@ install_Yay() {
 
 # Install required pacman packages
 install_pacman_packages() {
-  local REQUIRED_PKGS=("feh" "rofi" "nano" "ghostty" "thunar" "polybar" "fastfetch" "btop" "networkmanager" "flatpak" )
+  local REQUIRED_PKGS=("feh" "rofi" "nano" "ghostty" "thunar" "polybar" "fastfetch" "btop" "networkmanager" "flatpak" "firefox" )
   for pkg in "${REQUIRED_PKGS[@]}"; do pacman -Q "$pkg" &>/dev/null || sudo pacman -S --noconfirm "$pkg"; done
 }
 
 # Install required yay (AUR) packages
 install_yay_packages() {
-  local AUR_PKGS=("vesktop" "zen-browser-bin" "sxwm")
+  local AUR_PKGS=("sxwm")
   for pkg in "${AUR_PKGS[@]}"; do yay -Q "$pkg" &>/dev/null || yay -S --noconfirm "$pkg"; done
 }
 
