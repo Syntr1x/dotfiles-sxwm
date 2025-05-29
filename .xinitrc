@@ -1,1 +1,1 @@
-feh --bg-fill ~/.config/wallpaper/pinkRose.jpg
+feh --bg-fill ~/.config/Wallpapers/pinkRose.jpg
