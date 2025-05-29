@@ -22,7 +22,7 @@ bind : mod + Return : "st"
 bind : mod + b : "firefox"
 bind : mod + r : "rofi -show drun"
 bind : mod + q : "ghostty"
-bind : mod + shift + w : "polybar"
+bind : mod + shift + w : "/home/YOURUSERNAME/.config/scripts/polybar-toggle.sh"
 bind : mod + e : "thunar"
 
 # Window Management:
