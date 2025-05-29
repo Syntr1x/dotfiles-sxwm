@@ -1,0 +1,16 @@
+#><><TopBar><><#
+
+window-decoration = false
+
+#><><Themes><><#
+
+theme = syn-beige
+#theme = syn-mellow
+#theme = syn-Broadcast
+#theme = syn-Ocean
+#theme = IC_Orange_PPL
+#theme = Spacedust
+#><><Keybinds><><#
+
+keybind = ctrl+ö=toggle_tab_overview
+
