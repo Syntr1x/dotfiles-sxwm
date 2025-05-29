@@ -24,6 +24,7 @@ copy_configs() {
   sudo cp /home/$USER/tempconf/Rofi-themes/*.rasi /usr/share/rofi/themes
   sudo cp /home/$USER/tempconf/Ghostty-themes/* /usr/share/ghostty/themes
   sudo cp /home/$USER/tempconf/.xinitrc /home/$USER/
+  sudo cp /home/$USER/tempconf/.bash_profile /home/$USER/
   sudo cp /home/$USER/tempconf/polybar /etc/
   sudo chown -R "$USER":"$USER" ~/.config/rofi
 }
