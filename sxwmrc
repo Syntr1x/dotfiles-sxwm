@@ -24,6 +24,7 @@ bind : mod + r : "rofi -show drun"
 bind : mod + q : "ghostty"
 bind : mod + shift + w : "/home/YOURUSERNAME/.config/scripts/polybar-toggle.sh"
 bind : mod + e : "thunar"
+bind : mod + shift + p : "poweroff"
 
 # Window Management:
 call : mod + c : close_window
